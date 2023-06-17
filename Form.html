@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form making</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Form.html"> Form</a></li>
+                <li><a href="Table.html">Table </a></li>
+                <li> <a href="Semantic.html"> Semantic</a></li>
+                <li><a href="Audio-Video.html">Media</a></li>
+                <li><a href="About us.html">About us</a></li>
+            </ul>
+            <h1>Welcome to Form></h1>
+            <p>
+            <h1>Give Your Info</h1>
+            </p>
+            <form action="">
+                <p>
+                    Name:<input type="text" name="Name" placeholder="Enter your name">
+                </p>
+                <p>
+                    Birth Date:<input type="date" name="Date">
+                </p>
+                <p>
+                    Age:<input type="number" name="Year" placeholder="Year">
+                </p>
+                <p>
+                    Address:<input type="text" name="Address" placeholder="District/Division/Country">
+                </p>
+                <fieldset>
+                    <legend>Select your Profession</legend>
+                    <p>
+                        <label for="Programmer"><input type="radio" name="Programmer" id="Programmer">Programmer</label>
+                    </p>
+                    <p>
+                        <label for="Freelancer"><input type="radio" name="Freelancer" id="Freelancer">Freelancer</label>
+                    </p>
+                    <p>
+                        <label for="Doctor"><input type="radio" name="Doctor" id="Doctor">Doctor</label>
+                    </p>
+                    <p><label for="Engineer"><input type="radio" id="Engineer" name="Engineer">Engineer</label>
+                    </p>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Select your Hobby</legend>
+                    <p>
+                        <label for="Cooking"><input type="checkbox" name="Cooking" id="Cooking">Cooking</label>
+                    </p>
+
+                    <p>
+                        <label for="Reeding Books"><input type="checkbox" name="Reeding   Books"
+                                id="Reeding Books">Reeding
+                            Books</label>
+                    </p>
+                    <p>
+                        <label for="Gardening"><input type="checkbox" name="Gardening" id="Gardening">Gardening</label>
+                    </p>
+                    <p><label for="Boxing"><input type="checkbox" name="Boxing" id="Boxing">Boxing</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+
+                    <legend>Select your Time Pass</legend>
+                    <p>
+                        <label for="Travelling"><input type="radio" name="Travelling" id="Travelling">Travelling</label>
+                    </p>
+                    <p>
+                        <label for="Singing"><input type="checkbox" name="Singing" id="Singing">Singing</label>
+                    </p>
+                    <p>
+                        <label for="Dancing"><input type="radio" name="Dancing" id="Dancing">Dancing</label>
+                    </p>
+                    <p>
+                        <label for="Writting"><input type="checkbox" name="Writting" id="Writting">Writting</label>
+                    </p>
+                </fieldset>
+                <p>
+                    Write something about you<br>
+                    <textarea name="Instruction" id="Instruction" cols="40pxpx" rows="10pxpx"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+</body>
+
+</html>
