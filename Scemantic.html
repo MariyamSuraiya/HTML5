@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic</title>
     <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        section {
+            text-align: center;
+            display: block;
+            padding: 20px 0 40px 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            border: 10px solid rgb(218, 215, 16);
+            border-radius: 15px;
+
+            background-color: rgb(255, 228, 196);
+            margin: 30px 40px 50px 40px;
+        }
+
+        .header {
+
+            text-align: center;
+            margin-top: 70px;
+        }
+    </style>
+
+
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="Home.html">Home</a></li>
@@ -21,7 +43,69 @@
             </ul>
         </nav>
     </header>
-    <h1>It's a Semantic Website</h1>
+    <main>
+        <header class="header">
+            <h2>About Semantic Tag</h2>
+        </header>
+        <section>
+            <h3>Semantic Definition</h3>
+            <article>
+                Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in
+                web pages and web applications rather than merely to define its presentation or look. Semantic HTML is
+                processed by traditional web browsers as well as by many other user agents. CSS is used to suggest its
+                presentation to human users.
+            </article>
+        </section>
+
+        <section>
+            <h3>Conclusion</h3>
+            <article>
+                In cases where a document requires more precise semantics than those expressed in HTML alone, fragments
+                of the document may be enclosed within span or div elements with meaningful class names and , Where
+                these class names are also a fragment
+                identifier
+                within a schema or ontology, they may link to a more defined meaning. Microformats formalise
+                this approach to semantics in HTML.
+            </article>
+        </section>
+
+        <section>
+            <h3>More about</h3>
+            <article>
+                One important restriction of this approach is that such markup based on element inclusion must meet the
+                well-formedness conditions. As these documents are broadly tree-structured, this means that only
+                balanced fragments from a sub-tree can be marked up in this way.[11][12] A means of marking-up any
+                arbitrary section of HTML would require a mechanism independent of the markup structure itself, such as
+                XPointer.
+
+
+            </article>
+        </section>
+        <section>
+            <h3>Something more</h3>
+            <article>
+                Good semantic HTML also improves the accessibility of web documents (see also Web Content Accessibility
+                Guidelines).[citation needed] For example, when a screen reader or audio browser can correctly ascertain
+                the structure of a document, it will not waste the visually impaired user's time by reading out repeated
+                or irrelevant information when it has been marked up correctly.
+            </article>
+        </section>
+        <section>
+            <h3>Last Information</h3>
+            <article>
+                In 2010, Google specified three forms of structured metadata that their systems will use to find
+                structured semantic content within webpages. Such information, when related to reviews, people profiles,
+                business listings, and events will be used by Google to enhance the "snippet", or short piece of quoted
+                text that is shown when the page appears in search listings. Google specifies that that data may be
+                given using microdata, microformats or RDFa.[13] Microdata is specified inside itemtype and itemprop
+                attributes added to existing HTML elements; microformat keywords are added inside class attributes as
+                discussed above; and RDFa relies on rel, typeof and property attributes added to existing elements.[14]
+            </article>
+        </section>
+    </main>
+    <footer class="header">
+        ©From wikipedia,en.wikipedia.org...
+    </footer>
 
 </body>
 
