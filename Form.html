@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form making</title>
     <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        fieldset {
+
+            border-radius: 10px;
+            border: 3px solid rgb(45, 21, 133);
+            margin: 5% 70% 0 0;
+        }
+
+        .para {
+            font-size: 27px;
+        }
+    </style>
 </head>
 
 <body>
@@ -72,7 +84,7 @@
 
         </nav>
     </header>
-    <h1>Welcome to Form</h1>
+    <h1 style="text-align: center; font-size: 50px; padding-bottom: 70px;">Welcome to Form</h1>
     <p>
     <h1>Give Your Info</h1>
     </p>
@@ -85,6 +97,9 @@
         </p>
         <p>
             Age:<input type="number" name="Year" placeholder="Year">
+        </p>
+        <p>
+            E-mail:<input type="email" name="email" placeholder="@E-mail Address">
         </p>
         <p>
             Address:<input type="text" name="Address" placeholder="District/Division/Country">
@@ -136,14 +151,27 @@
                 <label for="Writting"><input type="checkbox" name="Writting" id="Writting">Writting</label>
             </p>
         </fieldset>
-        <p>
-            Write something about you<br>
-            <textarea name="Instruction" id="Instruction" cols="40pxpx" rows="10pxpx"></textarea>
-        </p>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <fieldset disabled="disabled">
+            <p class="para">
+                It's a <b>fieldset disabled="disabled"</b> Box.I'm make it without any space in the top place.It's
+                different from other fieldset.
+            </p>
+        </fieldset>
+
+
+        <textarea name="Instruction" id="Instruction" type="text" placeholder="🖊Write something here about you🖊"
+            style="color: rgb(224, 11, 11); text-align: center;padding-top: 80px; font-size: 30px; border-radius: 10px;margin: 10% 40%;"
+            cols="20px" rows="4px"></textarea>
+
+
+        <footer style="text-align: center;">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <p>© tricks from another place</p>
+        </footer>
 
     </form>
+
 </body>
 
 </html>

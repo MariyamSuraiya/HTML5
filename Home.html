@@ -5,7 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        img {
+            height: 50%;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 25px;
+        }
+
+        h1 {
+            color: rgb(241, 168, 57);
+            text-align: center;
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Tilt Prism';
+            margin-bottom: 40px;
+        }
+
+        h1:hover {
+            color: rgb(255, 233, 31);
+            font-size: 37px;
+            font-weight: 900;
+            font-family: 'Tilt Prism';
+            background-image: linear-gradient(rgb(226, 112, 19), rgba(240, 143, 33, 0.938), rgb(238, 211, 93), rgba(240, 176, 93, 0.918));
+            border-radius: 25px;
+            border-width: 20px;
+            margin: 50px 400px;
+        }
+    </style>
 </head>
 
 <body>
@@ -72,6 +104,21 @@
 
         </nav>
     </header>
+    <main>
+        <header>
+            <h1> Welcome To My Website Homepage</h1>
+        </header>
+        <section>
+            <article>
+
+                <img src='./Media/Beach pic.jpg' alt="Sea Beach Pic"
+                    onclick="window.open('./Media/Beach pic.jpg', '_blank');">
+
+
+            </article>
+        </section>
+
+    </main>
 </body>
 
 </html>
