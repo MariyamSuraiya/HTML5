@@ -6,8 +6,10 @@ nav li {
     list-style: none;
     margin-right: 20px;
     padding: 0 10px 0 10px;
-    margin-left: 7%;
-    margin-bottom: 40px;
+    margin-left: 6%;
+    margin-bottom: 6%;
+    text-align: center;
+
 
 
 }
@@ -22,7 +24,7 @@ nav li:hover {
 nav li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 128%;
 
 }
 
