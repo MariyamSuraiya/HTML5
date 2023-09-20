@@ -4,74 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/nav.css">
     <style>
+        img {
+
+            width: 40%;
+            margin: 0 30% 0 30%;
+            border-radius: 25px;
+            border-image: url('./Media/Beach Pic.jpg');
+            border-image-width: 100%;
+            border-image-outset: 15px;
+            border-image-slice: calc(50 / 184 * 100%) calc(10 / 284 * 100%) fill;
+
+        }
+
         h1 {
+
             text-align: center;
-            background-image: url('./Media/istockphoto-1173935107-170667a.webp');
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Tilt Prism';
+            margin-bottom: 40px;
+            background: linear-gradient(to right, #f32170, #b84b03, #b30665, #045217);
+            background-position: center;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
-            background-clip: text;
-            background-size: cover;
-            background-position: center;
-            font-size: 60px;
-            font-weight: 800;
+
         }
 
-        p {
-
-            border: 10px solid rgba(248, 146, 13, 0.452);
-            border-radius: 20px;
-            width: 30%;
-            text-align: center;
-            margin: 0 30% 0 35%;
-            padding: 3% 2% 3% 2%;
-            font-size: 78%;
+        h1:hover {
+            color: rgb(255, 233, 31);
+            font-size: 37px;
             font-weight: 900;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: #eb4c0d;
-            background-image: url('./Media/Beach pic.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-
-
-        }
-
-        p:hover {
-            border-radius: 30px;
-            width: 60%;
-            height: 30%;
-            text-align: center;
-            margin: 8% 20% 0 15%;
-            padding: 5% 5% 5% 5%;
-            font-size: 150%;
-            font-weight: 900;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url('./Media/Sunset.jpg');
-            background-repeat: repeat;
-            background-position-x: center;
-            background-position-y: center;
-            background-size: contain;
-            border: 10px solid rgba(13, 36, 58, 0.726);
-            color: rgb(231, 218, 38)
-        }
-
-        body:hover {
-            background-image: url('./Media/Sunset.jpg');
-            background-repeat: repeat;
-            background-size: auto;
-
-
-
+            font-family: 'Tilt Prism';
+            background-image: linear-gradient(rgba(139, 161, 175, 0.918), rgba(240, 143, 33, 0.938), rgba(247, 41, 13, 0.808), rgba(240, 176, 93, 0.918), rgba(14, 14, 133, 0.705));
+            -webkit-background-clip: border-box;
+            -webkit-text-fill-color: rgb(255, 233, 31);
+            border-radius: 25px;
+            margin: 2% 30% 3% 30%;
         }
 
         body {
-            background-image: url('./Media/Beach pic.jpg');
-
+            background-image: url('./Media/Gooselove.jpg');
             background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
 
+        }
+
+        body:hover {
+            background-image: url('./Media/Gooselove.jpg');
+            background-size: contain;
+            background-repeat: repeat;
+            background-position-x: center;
+            background-position-y: center;
         }
     </style>
 </head>
@@ -80,13 +72,13 @@
     <header>
         <nav>
             <ul>
-                <li><a href="Home.html">Home
+                <li><a href="index.html">Home
                         <ul class="dropdown">
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML5">💕HTML5💕</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML4"></a>💖HTML4💖</li>
                             <li><a href="https://mariyam-suraiya.github.io/developer/">🎀Developer🎀</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/pseudo-box">🎁Pseudo-box🎁</a></li>
-
+                            <li><a href="Specificity.html">🌈Specificity🌈</a></li>
                         </ul>
                     </a></li>
                 <li><a href="Form.html"> Form
@@ -95,7 +87,7 @@
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML4"></a>💖HTML4💖</li>
                             <li><a href="https://mariyam-suraiya.github.io/developer/">🎀Developer🎀</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/pseudo-box">🎁Pseudo-box🎁</a></li>
-
+                            <li><a href="Specificity.html">🌈Specificity🌈</a></li>
                         </ul>
                     </a></li>
                 <li><a href="Table.html">Table
@@ -104,7 +96,7 @@
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML4"></a>💖HTML4💖</li>
                             <li><a href="https://mariyam-suraiya.github.io/developer/">🎀Developer🎀</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/pseudo-box">🎁Pseudo-box🎁</a></li>
-
+                            <li><a href="Specificity.html">🌈Specificity🌈</a></li>
                         </ul>
                     </a></li>
                 <li> <a href="Semantic.html"> Semantic
@@ -113,7 +105,7 @@
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML4"></a>💖HTML4💖</li>
                             <li><a href="https://mariyam-suraiya.github.io/developer/">🎀Developer🎀</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/pseudo-box">🎁Pseudo-box🎁</a></li>
-
+                            <li><a href="Specificity.html">🌈Specificity🌈</a></li>
                         </ul>
                     </a></li>
                 <li><a href="Audio-Video.html">Media
@@ -122,7 +114,7 @@
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML4"></a>💖HTML4💖</li>
                             <li><a href="https://mariyam-suraiya.github.io/developer/">🎀Developer🎀</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/pseudo-box">🎁Pseudo-box🎁</a></li>
-
+                            <li><a href="Specificity.html">🌈Specificity🌈</a></li>
                         </ul>
                     </a></li>
                 <li><a href="About us.html">About us
@@ -131,7 +123,7 @@
                             <li><a href="https://github.com/Mariyam-Suraiya/HTML4"></a>💖HTML4💖</li>
                             <li><a href="https://mariyam-suraiya.github.io/developer/">🎀Developer🎀</a></li>
                             <li><a href="https://github.com/Mariyam-Suraiya/pseudo-box">🎁Pseudo-box🎁</a></li>
-
+                            <li><a href="Specificity.html">🌈Specificity🌈</a></li>
                         </ul>
                     </a></li>
             </ul>
@@ -141,31 +133,20 @@
         </nav>
     </header>
     <main>
-        <main>
-            <header>
-                <h1>
-                    <h1>Read about us</h1>
-                </h1>
-            </header>
-            <section>
-                <article>
-                    <p>
-                        Here there is I'm given some webpage link.And also given inside this webpage some other website
-                        link,with given <span style="color: rgb(21, 3, 85);">"Hover styles"</span>
-                        In fact,I'm try to given in here some new thing out of my course.In case of form,,I'm not filled
-                        it
-                        successfully. I just give it a form demo.It's incomplete now.When I'm learn how to fix it ,,like
-                        complete a form then I will give it a new structure or new form.My website names are here
-                        in...Try,Developer,HTML4,HTML5,Pseudo-box.I don't know ,how was my webpage.But I try to give my
-                        best
-                        for, making it. I Hope all of you guys like it.
-                    </p>
-                </article>
-            </section>
+        <header>
+            <h1> Welcome To My Website Homepage</h1>
+        </header>
+        <section>
+            <article>
+                <p>
+                    <img src='./Media/Beach Pic.jpg ' alt="Sea Beach Pic"
+                        onclick="window.open('./Media/Beach pic.jpg', '_blank');">
+                </p>
 
-        </main>
+            </article>
+        </section>
+
     </main>
-
 </body>
 
 </html>
