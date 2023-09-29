@@ -15,9 +15,9 @@
             width: 40%;
             margin: 0 30% 0 30%;
             border-radius: 25px;
-            border-image: url('./Media/Beach pic.jpg');
             border-image-width: 100%;
             border-image-outset: 15px;
+            border-image-source: url('./Media/Beach pic.jpg');
             border-image-slice: calc(50 / 184 * 100%) calc(10 / 284 * 100%) fill;
 
         }
@@ -26,14 +26,17 @@
 
             text-align: center;
             text-decoration: none;
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 900;
             font-family: 'Tilt Prism';
             margin-bottom: 40px;
-            background: linear-gradient(to right, #f32170, #b84b03, #b30665, #045217);
             background-position: center;
-            -webkit-text-fill-color: transparent;
+            background-color: rgb(133, 8, 8);
+            background-size: contain;
             -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+
 
         }
 
@@ -42,25 +45,25 @@
             font-size: 37px;
             font-weight: 900;
             font-family: 'Tilt Prism';
-            background-image: linear-gradient(rgba(139, 161, 175, 0.918), rgba(240, 143, 33, 0.938), rgba(247, 41, 13, 0.808), rgba(240, 176, 93, 0.918), rgba(14, 14, 133, 0.705));
-            -webkit-background-clip: border-box;
-            -webkit-text-fill-color: rgb(255, 233, 31);
+            background-image: linear-gradient(rgba(139, 161, 175, 0.918), rgba(236, 195, 147, 0.925), rgba(212, 224, 37, 0.795), rgba(240, 176, 93, 0.918), rgba(233, 150, 42, 0.856));
+            background-clip: border-box;
+            -webkit-text-fill-color: lightyellow;
             border-radius: 25px;
             margin: 2% 30% 3% 30%;
         }
 
         body {
-            background-image: url('./Media/Gooselove.jpg');
+            background-image: url('./Media/cap.jpeg');
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: repeat;
             background-position-x: center;
             background-position-y: center;
 
         }
 
         body:hover {
-            background-image: url('./Media/Gooselove.jpg');
-            background-size: contain;
+            background-image: url('./Media/cap.jpeg');
+            background-size: 50% 40%;
             background-repeat: repeat;
             background-position-x: center;
             background-position-y: center;
